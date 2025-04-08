@@ -4,7 +4,7 @@
 
 ## Описание проекта
 
-В текущей директории расположен отчет _(Image_processing_report.pdf)_, который содержит подробное описание проекта.
+В текущей директории расположен [отчет](https://github.com/pitatir/training_projects/blob/main/C_projects/BMP_images_processing/Image_processing_report.pdf), который содержит подробное описание проекта.
 
 Ключевые особенности проекта:
 
