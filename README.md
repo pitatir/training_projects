@@ -15,7 +15,7 @@
 │   
 ├── C_projects                                          Проекты на языке С:
 │   ├── BMP_images_processing                               - обработка BMP изображений
-│   ├── Linux_IPC                                           - межпроцессные взаимодействия в Linux
+│   ├── Linux_IPC                                           - межпроцессные взаимодействия в Linux:
 │   │   ├── IPC_pipe_fifo_sockets_shm                         - каналы, сокеты, разделяемая память
 │   │   └── IPC_signals                                       - сигналы     
 │   └── Linux_core_tracing_processes                        - трассировка ядра Linux с помощью Ftrace
