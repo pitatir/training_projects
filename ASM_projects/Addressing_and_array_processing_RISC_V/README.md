@@ -7,7 +7,7 @@
 В текущей директории расположен [отчет](https://github.com/pitatir/training_projects/blob/main/ASM_projects/Addressing_and_array_processing_RISC_V/Addressing_and_array_processing_report.pdf), 
 который содержит подробное описание проекта.
 
-Ключевые особенности проекта:
+**Ключевые особенности проекта:**
 
 * использование различных видов адресации;
 * реализация работы с массивами.
