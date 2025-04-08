@@ -7,7 +7,7 @@
 В текущей директории расположен [отчет](https://github.com/pitatir/training_projects/blob/main/ASM_projects/Interruptions_and_string_processing_Ix86/Interruptions_and_string_processing_report.pdf), который содержит подробное
 описание проекта.
 
-Ключевые особенности проекта:
+**Ключевые особенности проекта:**
 
 * написание собственного обработчика прерывания;
 * реализация работы со строками.
