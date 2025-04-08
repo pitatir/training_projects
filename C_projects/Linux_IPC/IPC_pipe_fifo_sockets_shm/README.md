@@ -6,7 +6,7 @@
 
 В текущей директории расположен [отчет](https://github.com/pitatir/training_projects/blob/main/C_projects/Linux_IPC/IPC_pipe_fifo_sockets_shm/IPC_pipe_fifo_sockets_shm.pdf), который содержит подробное описание проекта.
 
-Ключевые особенности проекта:
+**Ключевые особенности проекта:**
 
 * использование именованных и неименованных каналов;
 * использование TCP и UDP сокетов;
