@@ -4,7 +4,7 @@
 
 ## Описание проекта
 
-В текущей директории расположен отчет _(Interruptions_and_string_processing_report.pdf)_, который содержит подробное
+В текущей директории расположен [отчет](https://github.com/pitatir/training_projects/blob/main/ASM_projects/Interruptions_and_string_processing_Ix86/Interruptions_and_string_processing_report.pdf), который содержит подробное
 описание проекта.
 
 Ключевые особенности проекта:
@@ -20,8 +20,8 @@
 
 В терминале DOSBox:
 
-1. ```mount c c:\<полный путь к папке src>``` - подключение папки с кодом как виртуального диска.
-   Например, ```C:\Users\Admin\educational_projects\ASM_projects\Ix86\src```;
+1. ```mount c c:\<полный путь к папке src>``` - подключение папки с кодом как виртуального диска.\
+  _Например, ```C:\Users\Admin\educational_projects\ASM_projects\Ix86\src```;_
 2. ```c:``` - переход к виртуальному диску;
 3. ```asm main.asm``` - трансляция программы;
 4. ```link main.obj``` - компоновка загрузочного модуля;
