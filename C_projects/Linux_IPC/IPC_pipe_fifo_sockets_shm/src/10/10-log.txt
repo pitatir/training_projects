@@ -1,0 +1,41 @@
+Терминал с сервером:
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/10$ gcc server.c -o s
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/10$ gcc client.c -o c
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/10$ ./s
+Используем файл с ключом по умолчанию key.txt
+Сообщение клиента: 1
+Сообщение клиента: 2
+Сообщение клиента: 3
+Сообщение клиента: 4
+Сообщение клиента: 5
+Сообщение клиента: 6
+Сообщение клиента: 7
+Сообщение клиента: 8
+^C
+Работа сервера завершена
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/10$ 
+
+
+Терминал с клиентом 1:
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/10$ ./c
+Используем файл с ключом по умолчанию key.txt
+1
+2
+5
+8
+9
+10
+Ошибка отправки сообщения
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/10$ 
+
+
+Терминал с клиентом 2:
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/10$ ./c
+Используем файл с ключом по умолчанию key.txt
+3
+4
+6
+7
+^C
+Работа клиента завершена
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/10$ 

@@ -1,0 +1,49 @@
+В терминале сервера:
+
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/12$ gcc server.c -o s
+server.c: In function ‘clientHandler’:
+server.c:49:16: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+   49 |     int sock = (int) args;
+      |                ^
+server.c: In function ‘main’:
+server.c:130:60: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  130 |         res = pthread_create(&thread, NULL, clientHandler, (void *) (client));
+      |                                                            ^
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/12$ ./s
+Используем порт по умолчанию: 8888
+
+Адрес сокета 0.0.0.0:47138 (0.0.0.0:8888)
+Клиент отправил: Hi!
+Клиент отправил: It's client!
+Клиент отправил: Bye!
+Ошибка получения данных клиента: Success
+^C
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/12$ 
+
+
+В терминале клиента:
+
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/12$ gcc client.c -o c
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/12$ ./c
+Используем порт по умолчанию: 8888
+Используем адрес по умолчанию: 127.0.0.1
+
+Адрес сокета 127.0.0.1:47138 (127.0.0.1:8888)
+
+Введите сообщение
+Hi!  
+Ответ сервера: Hi!
+
+Введите сообщение
+It's client!
+Ответ сервера: It's client!
+
+Введите сообщение
+Bye!
+Ответ сервера: Bye!
+
+Введите сообщение
+
+Конец работы клиента
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/12$ 
+

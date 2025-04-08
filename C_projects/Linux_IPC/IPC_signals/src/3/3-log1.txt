@@ -1,0 +1,36 @@
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/3$ gcc 3.c -o 3
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/3$ ./3 &
+[1] 28445
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/3$ jobs
+[1]+  Running                 ./3 &
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/3$ ps -s
+  UID     PID   PENDING   BLOCKED   IGNORED    CAUGHT STAT TTY        TIME COMMAND
+ 1000   28438  00000000  00010000  00384004  4b813efb Ss   pts/0      0:00 bash
+ 1000   28445  00000000  00000000  00000000  00000200 S    pts/0      0:00 ./3
+ 1000   28448  00000000  00000000  00000000  73d1fef9 R+   pts/0      0:00 ps -s
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/3$ kill -SIGUSR1 %1
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/3$ Пойман сигнал SIGUSR1
+jobs
+[1]+  Running                 ./3 &
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/3$ ps -s
+  UID     PID   PENDING   BLOCKED   IGNORED    CAUGHT STAT TTY        TIME COMMAND
+ 1000   28438  00000000  00010000  00384004  4b813efb Ss   pts/0      0:00 bash
+ 1000   28445  00000000  00000000  00000000  00000200 S    pts/0      0:00 ./3
+ 1000   28450  00000000  00000000  00000000  73d1fef9 R+   pts/0      0:00 ps -s
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/3$ kill -SIGUSR1 %1
+Пойман сигнал SIGUSR1
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/3$ jobs
+[1]+  Running                 ./3 &
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/3$ ps -s
+  UID     PID   PENDING   BLOCKED   IGNORED    CAUGHT STAT TTY        TIME COMMAND
+ 1000   28438  00000000  00010000  00384004  4b813efb Ss   pts/0      0:00 bash
+ 1000   28445  00000000  00000000  00000000  00000200 S    pts/0      0:00 ./3
+ 1000   28455  00000000  00000000  00000000  73d1fef9 R+   pts/0      0:00 ps -s
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/3$ kill -SIGINT %1
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/3$ jobs
+[1]+  Interrupt               ./3
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/3$ ps -s
+  UID     PID   PENDING   BLOCKED   IGNORED    CAUGHT STAT TTY        TIME COMMAND
+ 1000   28438  00000000  00010000  00384004  4b813efb Ss   pts/0      0:00 bash
+ 1000   28458  00000000  00000000  00000000  73d1fef9 R+   pts/0      0:00 ps -s
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/3$ 

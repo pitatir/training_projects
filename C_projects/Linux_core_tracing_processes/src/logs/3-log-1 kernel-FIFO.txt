@@ -1,0 +1,961 @@
+### Запуск на одном ядре
+## SHED_FIFO
+root@pitatir-Lenovo-Legion-Y9000P2021H:/sys/kernel/debug/tracing# /home/pitatir/LR7/ftrace3.sh
+kernel.ftrace_enabled = 1
+Политика планирования родительского процесса: SCHED_FIFO
+
+0) Дочерний процесс: pid = 31620 ppid = 31619
+Checkpoint 0: процесс с pid = 31620
+Процесс 0 с pid = 31620 закончен
+1) Дочерний процесс: pid = 31621 ppid = 31619
+Checkpoint 1: процесс с pid = 31621
+Процесс 1 с pid = 31621 закончен
+2) Дочерний процесс: pid = 31622 ppid = 31619
+Checkpoint 2: процесс с pid = 31622
+Процесс 2 с pid = 31622 закончен
+3) Дочерний процесс: pid = 31623 ppid = 31619
+Checkpoint 3: процесс с pid = 31623
+Процесс 3 с pid = 31623 закончен
+4) Дочерний процесс: pid = 31624 ppid = 31619
+Checkpoint 4: процесс с pid = 31624
+Процесс 4 с pid = 31624 закончен
+5) Дочерний процесс: pid = 31625 ppid = 31619
+Checkpoint 5: процесс с pid = 31625
+Процесс 5 с pid = 31625 закончен
+6) Дочерний процесс: pid = 31626 ppid = 31619
+Checkpoint 6: процесс с pid = 31626
+Процесс 6 с pid = 31626 закончен
+7) Дочерний процесс: pid = 31627 ppid = 31619
+Checkpoint 7: процесс с pid = 31627
+Процесс 7 с pid = 31627 закончен
+8) Дочерний процесс: pid = 31628 ppid = 31619
+Checkpoint 8: процесс с pid = 31628
+Процесс 8 с pid = 31628 закончен
+9) Дочерний процесс: pid = 31629 ppid = 31619
+Checkpoint 9: процесс с pid = 31629
+Процесс 9 с pid = 31629 закончен
+10) Дочерний процесс: pid = 31630 ppid = 31619
+Checkpoint 10: процесс с pid = 31630
+Процесс 10 с pid = 31630 закончен
+11) Дочерний процесс: pid = 31631 ppid = 31619
+Checkpoint 11: процесс с pid = 31631
+Процесс 11 с pid = 31631 закончен
+12) Дочерний процесс: pid = 31632 ppid = 31619
+Checkpoint 12: процесс с pid = 31632
+Процесс 12 с pid = 31632 закончен
+13) Дочерний процесс: pid = 31633 ppid = 31619
+Checkpoint 13: процесс с pid = 31633
+Процесс 13 с pid = 31633 закончен
+14) Дочерний процесс: pid = 31634 ppid = 31619
+Checkpoint 14: процесс с pid = 31634
+Процесс 14 с pid = 31634 закончен
+15) Дочерний процесс: pid = 31635 ppid = 31619
+Checkpoint 15: процесс с pid = 31635
+Процесс 15 с pid = 31635 закончен
+16) Дочерний процесс: pid = 31636 ppid = 31619
+Checkpoint 16: процесс с pid = 31636
+Процесс 16 с pid = 31636 закончен
+17) Дочерний процесс: pid = 31637 ppid = 31619
+Checkpoint 17: процесс с pid = 31637
+Процесс 17 с pid = 31637 закончен
+18) Дочерний процесс: pid = 31638 ppid = 31619
+Checkpoint 18: процесс с pid = 31638
+Процесс 18 с pid = 31638 закончен
+19) Дочерний процесс: pid = 31639 ppid = 31619
+Checkpoint 19: процесс с pid = 31639
+Процесс 19 с pid = 31639 закончен
+20) Дочерний процесс: pid = 31640 ppid = 31619
+Checkpoint 20: процесс с pid = 31640
+Процесс 20 с pid = 31640 закончен
+21) Дочерний процесс: pid = 31641 ppid = 31619
+Checkpoint 21: процесс с pid = 31641
+Процесс 21 с pid = 31641 закончен
+22) Дочерний процесс: pid = 31642 ppid = 31619
+Checkpoint 22: процесс с pid = 31642
+Процесс 22 с pid = 31642 закончен
+23) Дочерний процесс: pid = 31643 ppid = 31619
+Checkpoint 23: процесс с pid = 31643
+Процесс 23 с pid = 31643 закончен
+24) Дочерний процесс: pid = 31644 ppid = 31619
+Checkpoint 24: процесс с pid = 31644
+Процесс 24 с pid = 31644 закончен
+25) Дочерний процесс: pid = 31645 ppid = 31619
+Checkpoint 25: процесс с pid = 31645
+Процесс 25 с pid = 31645 закончен
+26) Дочерний процесс: pid = 31646 ppid = 31619
+Checkpoint 26: процесс с pid = 31646
+Процесс 26 с pid = 31646 закончен
+27) Дочерний процесс: pid = 31647 ppid = 31619
+Checkpoint 27: процесс с pid = 31647
+Процесс 27 с pid = 31647 закончен
+28) Дочерний процесс: pid = 31648 ppid = 31619
+Checkpoint 28: процесс с pid = 31648
+Процесс 28 с pid = 31648 закончен
+29) Дочерний процесс: pid = 31649 ppid = 31619
+Checkpoint 29: процесс с pid = 31649
+Процесс 29 с pid = 31649 закончен
+30) Дочерний процесс: pid = 31650 ppid = 31619
+Checkpoint 30: процесс с pid = 31650
+Процесс 30 с pid = 31650 закончен
+31) Дочерний процесс: pid = 31651 ppid = 31619
+Checkpoint 31: процесс с pid = 31651
+Процесс 31 с pid = 31651 закончен
+Процесс завершен: pid = 31620
+Процесс завершен: pid = 31621
+Процесс завершен: pid = 31622
+Процесс завершен: pid = 31623
+Процесс завершен: pid = 31624
+Процесс завершен: pid = 31625
+Процесс завершен: pid = 31626
+Процесс завершен: pid = 31627
+Процесс завершен: pid = 31628
+Процесс завершен: pid = 31629
+Процесс завершен: pid = 31630
+Процесс завершен: pid = 31631
+Процесс завершен: pid = 31632
+Процесс завершен: pid = 31633
+Процесс завершен: pid = 31634
+Процесс завершен: pid = 31635
+Процесс завершен: pid = 31636
+Процесс завершен: pid = 31637
+Процесс завершен: pid = 31638
+Процесс завершен: pid = 31639
+Процесс завершен: pid = 31640
+Процесс завершен: pid = 31641
+Процесс завершен: pid = 31642
+Процесс завершен: pid = 31643
+Процесс завершен: pid = 31644
+Процесс завершен: pid = 31645
+Процесс завершен: pid = 31646
+Процесс завершен: pid = 31647
+Процесс завершен: pid = 31648
+Процесс завершен: pid = 31649
+Процесс завершен: pid = 31650
+Процесс завершен: pid = 31651
+Завершение родительской программы pid = 31619
+root@pitatir-Lenovo-Legion-Y9000P2021H:/sys/kernel/debug/tracing# cat trace | grep -E 'prog3'
+  1)    <idle>-0    |               |      /* sched_switch: prev_comm=swapper/1 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=30002 next_prio=49 */
+  1)    <idle>-0    =>  prog3-30002  
+  1)  prog3-30002   |   0.409 us    |  tty_ldisc_ref_wait();
+  1)  prog3-30002   |   0.563 us    |  tty_ldisc_ref_wait();
+  1)  prog3-30002   |               |  /* sched_switch: prev_comm=prog3 prev_pid=30002 prev_prio=49 prev_state=X ==> next_comm=swapper/1 next_pid=0 next_prio=120 */
+  1)  prog3-30002   =>    <idle>-0   
+  1)   sudo-30172   |               |  /* sched_switch: prev_comm=sudo prev_pid=30172 prev_prio=120 prev_state=R+ ==> next_comm=prog3 next_pid=30206 next_prio=49 */
+  1)   sudo-30172   =>  prog3-30206  
+  1)  prog3-30206   |   0.320 us    |  __do_sys_getppid();
+  1)  prog3-30206   |   0.217 us    |  tty_ldisc_ref_wait();
+  1)  prog3-30206   |               |  /* sched_wakeup: comm=kworker/1:2 pid=25349 prio=120 target_cpu=001 */
+  1)  prog3-30206   |   0.274 us    |  tty_ldisc_ref_wait();
+  1)  prog3-30206   |               |  /* sched_wakeup: comm=yandex_browser pid=5254 prio=120 target_cpu=001 */
+  1)  prog3-30206   |               |  /* sched_wakeup: comm=yandex_browser pid=5268 prio=120 target_cpu=001 */
+  1)  prog3-30206   |               |  /* sched_wakeup: comm=yandex_browser pid=3680 prio=120 target_cpu=001 */
+  1)  prog3-30206   |               |  /* sched_wakeup: comm=ThreadPoolForeg pid=3442 prio=120 target_cpu=001 */
+  1)  prog3-30206   |   0.210 us    |  tty_ldisc_ref_wait();
+  1)  prog3-30206   |               |  /* sched_switch: prev_comm=prog3 prev_pid=30206 prev_prio=49 prev_state=Z ==> next_comm=kworker/1:2 next_pid=25349 next_prio=120 */
+  1)  prog3-30206   => kworker-25349 
+  1) kworker-25349  |               |  /* sched_switch: prev_comm=kworker/1:2 prev_pid=25349 prev_prio=120 prev_state=R+ ==> next_comm=prog3 next_pid=30216 next_prio=49 */
+  1) kworker-25349  =>  prog3-30216  
+  1)  prog3-30216   |   0.250 us    |  __do_sys_getppid();
+  1)  prog3-30216   |   0.201 us    |  tty_ldisc_ref_wait();
+  1)  prog3-30216   |               |  /* sched_wakeup: comm=jemalloc_bg_thd pid=6638 prio=120 target_cpu=001 */
+  1)  prog3-30216   |               |  /* sched_switch: prev_comm=prog3 prev_pid=30216 prev_prio=49 prev_state=R ==> next_comm=GUsbEventThread next_pid=13088 next_prio=120 */
+  1)  prog3-30216   => GUsbEve-13088 
+  1)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/1 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=30216 next_prio=49 */
+  1)    <idle>-0    =>  prog3-30216  
+  1)  prog3-30216   |               |  /* sched_wakeup: comm=QThread pid=11833 prio=120 target_cpu=001 */
+  1)  prog3-30216   |               |  /* sched_wakeup: comm=kworker/1:2 pid=25349 prio=120 target_cpu=001 */
+  1)  prog3-30216   |   0.832 us    |  tty_ldisc_ref_wait();
+  1)  prog3-30216   |               |  /* sched_wakeup: comm=yandex_browser pid=21560 prio=120 target_cpu=001 */
+  1)  prog3-30216   |               |  /* sched_wakeup: comm=yandex_browser pid=4000 prio=120 target_cpu=001 */
+  1)  prog3-30216   |   0.228 us    |  tty_ldisc_ref_wait();
+  1)  prog3-30216   |               |  /* sched_wakeup: comm=kworker/u32:1 pid=29926 prio=120 target_cpu=010 */
+  1)  prog3-30216   |               |  /* sched_wakeup: comm=prog3 pid=30194 prio=49 target_cpu=010 */
+  1)  prog3-30216   |               |  /* sched_switch: prev_comm=prog3 prev_pid=30216 prev_prio=49 prev_state=Z ==> next_comm=kworker/1:2 next_pid=25349 next_prio=120 */
+  1)  prog3-30216   => kworker-25349 
+  1)    <idle>-0    =>  prog3-31515  
+  1)  prog3-31515   |   0.396 us    |  wbt_wait();
+  1)  prog3-31515   |               |  /* sched_switch: prev_comm=sudo prev_pid=31515 prev_prio=120 prev_state=D ==> next_comm=swapper/1 next_pid=0 next_prio=120 */
+  1)  prog3-31515   =>    <idle>-0   
+  1)    <idle>-0    =>  prog3-31515  
+  1)  prog3-31515   |   0.112 us    |  finish_wait();
+  1)  prog3-31515   |   0.233 us    |  wbt_wait();
+  1)  prog3-31515   |               |  /* sched_switch: prev_comm=taskset prev_pid=31515 prev_prio=120 prev_state=D ==> next_comm=swapper/1 next_pid=0 next_prio=120 */
+  1)  prog3-31515   =>    <idle>-0   
+  1)    <idle>-0    =>  prog3-31515  
+  1)  prog3-31515   |   0.093 us    |  finish_wait();
+  1)  prog3-31515   |   0.494 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   0.089 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |               |  do_wait() {
+  1)  prog3-31515   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31515 prev_prio=49 prev_state=S ==> next_comm=prog3 next_pid=31516 next_prio=49 */
+  1)  prog3-31515   =>  prog3-31516  
+  1)  prog3-31516   |   0.377 us    |  __do_sys_getppid();
+  1)  prog3-31516   |   0.137 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31516   |   0.746 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31516   |   0.851 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31516   |               |  /* sched_wakeup: comm=prog3 pid=31515 prio=49 target_cpu=001 */
+  1)  prog3-31516   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31516 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31517 next_prio=49 */
+  1)  prog3-31516   =>  prog3-31517  
+  1)  prog3-31517   |   0.359 us    |  __do_sys_getppid();
+  1)  prog3-31517   |   0.117 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31517   |   1.001 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31517   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31517 prev_prio=49 prev_state=R ==> next_comm=kworker/1:2 next_pid=25349 next_prio=120 */
+  1)  prog3-31517   => kworker-25349 
+  1)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/1 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31517 next_prio=49 */
+  1)    <idle>-0    =>  prog3-31517  
+  1)  prog3-31517   |   0.678 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31517   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31517 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31518 next_prio=49 */
+  1)  prog3-31517   =>  prog3-31518  
+  1)  prog3-31518   |   0.320 us    |  __do_sys_getppid();
+  1)  prog3-31518   |   0.122 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31518   |   0.609 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31518   |               |  /* sched_wakeup: comm=kworker/1:2 pid=25349 prio=120 target_cpu=001 */
+  1)  prog3-31518   |   0.588 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31518   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31518 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31519 next_prio=49 */
+  1)  prog3-31518   =>  prog3-31519  
+  1)  prog3-31519   |   0.295 us    |  __do_sys_getppid();
+  1)  prog3-31519   |   0.143 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31519   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31519 prev_prio=49 prev_state=R ==> next_comm=kworker/1:2 next_pid=25349 next_prio=120 */
+  1)  prog3-31519   => kworker-25349 
+  1)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/1 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31519 next_prio=49 */
+  1)    <idle>-0    =>  prog3-31519  
+  1)  prog3-31519   |   1.427 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31519   |               |  /* sched_wakeup: comm=kworker/1:2 pid=25349 prio=120 target_cpu=001 */
+  1)  prog3-31519   |   0.787 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31519   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31519 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31520 next_prio=49 */
+  1)  prog3-31519   =>  prog3-31520  
+  1)  prog3-31520   |   0.411 us    |  __do_sys_getppid();
+  1)  prog3-31520   |   0.250 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31520   |   0.940 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31520   |   1.112 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31520   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31520 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31521 next_prio=49 */
+  1)  prog3-31520   =>  prog3-31521  
+  1)  prog3-31521   |   0.313 us    |  __do_sys_getppid();
+  1)  prog3-31521   |   0.089 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31521   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31521 prev_prio=49 prev_state=R ==> next_comm=kworker/1:2 next_pid=25349 next_prio=120 */
+  1)  prog3-31521   => kworker-25349 
+  1)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/1 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31521 next_prio=49 */
+  1)    <idle>-0    =>  prog3-31521  
+  1)  prog3-31521   |   0.845 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31521   |   0.667 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31521   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31521 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31522 next_prio=49 */
+  1)  prog3-31521   =>  prog3-31522  
+  1)  prog3-31522   |               |  /* sched_wakeup: comm=kworker/1:2 pid=25349 prio=120 target_cpu=001 */
+  1)  prog3-31522   |   0.218 us    |  __do_sys_getppid();
+  1)  prog3-31522   |   0.197 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31522   |               |  stop_one_cpu_nowait() {
+  1)  prog3-31522   |               |  /* sched_wakeup: comm=migration/1 pid=21 prio=0 target_cpu=001 */
+  1)  prog3-31522   |   2.536 us    |  }
+  1)  prog3-31522   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31522 prev_prio=49 prev_state=R ==> next_comm=migration/1 next_pid=21 next_prio=0 */
+  1)  prog3-31522   =>   migrati-21  
+  1)   migrati-21   |               |  /* sched_switch: prev_comm=migration/1 prev_pid=21 prev_prio=0 prev_state=S ==> next_comm=prog3 next_pid=31522 next_prio=49 */
+  1)   migrati-21   =>  prog3-31522  
+  1)  prog3-31522   |   0.512 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31522   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31522 prev_prio=49 prev_state=R ==> next_comm=kworker/1:2 next_pid=25349 next_prio=120 */
+  1)  prog3-31522   => kworker-25349 
+  1)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/1 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31522 next_prio=49 */
+  1)    <idle>-0    =>  prog3-31522  
+  1)  prog3-31522   |               |  /* sched_wakeup: comm=kworker/1:2 pid=25349 prio=120 target_cpu=001 */
+  1)  prog3-31522   |   0.479 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31522   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31522 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31523 next_prio=49 */
+  1)  prog3-31522   =>  prog3-31523  
+  1)  prog3-31523   |   0.306 us    |  __do_sys_getppid();
+  1)  prog3-31523   |   0.191 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31523   |   0.788 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31523   |   0.842 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31523   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31523 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31524 next_prio=49 */
+  1)  prog3-31523   =>  prog3-31524  
+  1)  prog3-31524   |   0.331 us    |  __do_sys_getppid();
+  1)  prog3-31524   |   0.129 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31524   |   0.743 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31524   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31524 prev_prio=49 prev_state=R ==> next_comm=kworker/1:2 next_pid=25349 next_prio=120 */
+  1)  prog3-31524   => kworker-25349 
+  1)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/1 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31524 next_prio=49 */
+  1)    <idle>-0    =>  prog3-31524  
+  1)  prog3-31524   |               |  /* sched_wakeup: comm=kworker/1:2 pid=25349 prio=120 target_cpu=001 */
+  1)  prog3-31524   |   0.609 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31524   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31524 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31525 next_prio=49 */
+  1)  prog3-31524   =>  prog3-31525  
+  1)  prog3-31525   |   0.305 us    |  __do_sys_getppid();
+  1)  prog3-31525   |   0.098 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31525   |   0.556 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31525   |   0.914 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31525   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31525 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31526 next_prio=49 */
+  1)  prog3-31525   =>  prog3-31526  
+  1)  prog3-31526   |   0.276 us    |  __do_sys_getppid();
+  1)  prog3-31526   |   0.105 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31526   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31526 prev_prio=49 prev_state=R ==> next_comm=kworker/1:2 next_pid=25349 next_prio=120 */
+  1)  prog3-31526   => kworker-25349 
+  1)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/1 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31526 next_prio=49 */
+  1)    <idle>-0    =>  prog3-31526  
+  1)  prog3-31526   |   0.570 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31526   |   0.704 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31526   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31526 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31527 next_prio=49 */
+  1)  prog3-31526   =>  prog3-31527  
+  1)  prog3-31527   |               |  /* sched_wakeup: comm=kworker/1:2 pid=25349 prio=120 target_cpu=001 */
+  1)  prog3-31527   |   0.621 us    |  __do_sys_getppid();
+  1)  prog3-31527   |   0.100 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31527   |   0.784 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31527   |   0.810 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31527   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31527 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31528 next_prio=49 */
+  1)  prog3-31527   =>  prog3-31528  
+  1)  prog3-31528   |   0.283 us    |  __do_sys_getppid();
+  1)  prog3-31528   |   0.124 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31528   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31528 prev_prio=49 prev_state=R ==> next_comm=kworker/1:2 next_pid=25349 next_prio=120 */
+  1)  prog3-31528   => kworker-25349 
+  1)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/1 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31528 next_prio=49 */
+  1)    <idle>-0    =>  prog3-31528  
+  1)  prog3-31528   |   0.696 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31528   |   1.148 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31528   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31528 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31529 next_prio=49 */
+  1)  prog3-31528   =>  prog3-31529  
+  1)  prog3-31529   |               |  /* sched_wakeup: comm=kworker/1:2 pid=25349 prio=120 target_cpu=001 */
+  1)  prog3-31529   |   0.210 us    |  __do_sys_getppid();
+  1)  prog3-31529   |   0.127 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31529   |               |  stop_one_cpu_nowait() {
+  1)  prog3-31529   |               |  /* sched_wakeup: comm=migration/1 pid=21 prio=0 target_cpu=001 */
+  1)  prog3-31529   |   2.140 us    |  }
+  1)  prog3-31529   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31529 prev_prio=49 prev_state=R ==> next_comm=migration/1 next_pid=21 next_prio=0 */
+  1)  prog3-31529   =>   migrati-21  
+  1)   migrati-21   |               |  /* sched_switch: prev_comm=migration/1 prev_pid=21 prev_prio=0 prev_state=S ==> next_comm=prog3 next_pid=31529 next_prio=49 */
+  1)   migrati-21   =>  prog3-31529  
+  1)  prog3-31529   |   0.512 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31529   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31529 prev_prio=49 prev_state=R ==> next_comm=kworker/1:2 next_pid=25349 next_prio=120 */
+  1)  prog3-31529   => kworker-25349 
+  1)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/1 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31529 next_prio=49 */
+  1)    <idle>-0    =>  prog3-31529  
+  1)  prog3-31529   |               |  /* sched_wakeup: comm=kworker/1:2 pid=25349 prio=120 target_cpu=001 */
+  1)  prog3-31529   |   0.962 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31529   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31529 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31530 next_prio=49 */
+  1)  prog3-31529   =>  prog3-31530  
+  1)  prog3-31530   |   0.266 us    |  __do_sys_getppid();
+  1)  prog3-31530   |   0.131 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31530   |   0.672 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31530   |   1.220 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31530   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31530 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31531 next_prio=49 */
+  1)  prog3-31530   =>  prog3-31531  
+  1)  prog3-31531   |   0.335 us    |  __do_sys_getppid();
+  1)  prog3-31531   |   0.250 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31531   |   1.021 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31531   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31531 prev_prio=49 prev_state=R ==> next_comm=kworker/1:2 next_pid=25349 next_prio=120 */
+  1)  prog3-31531   => kworker-25349 
+  1)    <idle>-0    |               |      /* sched_switch: prev_comm=swapper/1 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31531 next_prio=49 */
+  1)    <idle>-0    =>  prog3-31531  
+  1)  prog3-31531   |               |      /* sched_wakeup: comm=kworker/1:2 pid=25349 prio=120 target_cpu=001 */
+  1)  prog3-31531   |   0.820 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31531   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31531 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31532 next_prio=49 */
+  1)  prog3-31531   =>  prog3-31532  
+  1)  prog3-31532   |   0.318 us    |  __do_sys_getppid();
+  1)  prog3-31532   |   0.180 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31532   |   3.052 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31532   |   0.899 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31532   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31532 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31533 next_prio=49 */
+  1)  prog3-31532   =>  prog3-31533  
+  1)  prog3-31533   |   0.299 us    |  __do_sys_getppid();
+  1)  prog3-31533   |   0.177 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31533   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31533 prev_prio=49 prev_state=R ==> next_comm=kworker/1:2 next_pid=25349 next_prio=120 */
+  1)  prog3-31533   => kworker-25349 
+  1)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/1 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31533 next_prio=49 */
+  1)    <idle>-0    =>  prog3-31533  
+  1)  prog3-31533   |   0.719 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31533   |   1.010 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31533   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31533 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31534 next_prio=49 */
+  1)  prog3-31533   =>  prog3-31534  
+  1)  prog3-31534   |               |  /* sched_wakeup: comm=kworker/1:2 pid=25349 prio=120 target_cpu=001 */
+  1)  prog3-31534   |   0.120 us    |  __do_sys_getppid();
+  1)  prog3-31534   |   0.124 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31534   |   0.755 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31534   |   0.885 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31534   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31534 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31535 next_prio=49 */
+  1)  prog3-31534   =>  prog3-31535  
+  1)  prog3-31535   |   0.225 us    |  __do_sys_getppid();
+  1)  prog3-31535   |   0.122 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31535   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31535 prev_prio=49 prev_state=R ==> next_comm=kworker/1:2 next_pid=25349 next_prio=120 */
+  1)  prog3-31535   => kworker-25349 
+  1)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/1 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31535 next_prio=49 */
+  1)    <idle>-0    =>  prog3-31535  
+  1)  prog3-31535   |               |  /* sched_wakeup: comm=kworker/1:2 pid=25349 prio=120 target_cpu=001 */
+  1)  prog3-31535   |   0.523 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31535   |   1.027 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31535   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31535 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31536 next_prio=49 */
+  1)  prog3-31535   =>  prog3-31536  
+  1)  prog3-31536   |   0.324 us    |  __do_sys_getppid();
+  1)  prog3-31536   |   0.133 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31536   |               |  stop_one_cpu_nowait() {
+  1)  prog3-31536   |               |  /* sched_wakeup: comm=migration/1 pid=21 prio=0 target_cpu=001 */
+  1)  prog3-31536   |   2.945 us    |  }
+  1)  prog3-31536   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31536 prev_prio=49 prev_state=R ==> next_comm=migration/1 next_pid=21 next_prio=0 */
+  1)  prog3-31536   =>   migrati-21  
+  1)   migrati-21   |               |  /* sched_switch: prev_comm=migration/1 prev_pid=21 prev_prio=0 prev_state=S ==> next_comm=prog3 next_pid=31536 next_prio=49 */
+  1)   migrati-21   =>  prog3-31536  
+  1)  prog3-31536   |   1.255 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31536   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31536 prev_prio=49 prev_state=R ==> next_comm=kworker/1:2 next_pid=25349 next_prio=120 */
+  1)  prog3-31536   => kworker-25349 
+  1)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/1 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31536 next_prio=49 */
+  1)    <idle>-0    =>  prog3-31536  
+  1)  prog3-31536   |   0.698 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31536   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31536 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31537 next_prio=49 */
+  1)  prog3-31536   =>  prog3-31537  
+  1)  prog3-31537   |   0.320 us    |  __do_sys_getppid();
+  1)  prog3-31537   |   0.132 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31537   |   0.928 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31537   |   0.832 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31537   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31537 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31538 next_prio=49 */
+  1)  prog3-31537   =>  prog3-31538  
+  1)  prog3-31538   |   0.238 us    |  __do_sys_getppid();
+  1)  prog3-31538   |   0.219 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31538   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31538 prev_prio=49 prev_state=R ==> next_comm=kworker/1:2 next_pid=25349 next_prio=120 */
+  1)  prog3-31538   => kworker-25349 
+  1)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/1 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31538 next_prio=49 */
+  1)    <idle>-0    =>  prog3-31538  
+  1)  prog3-31538   |   0.674 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31538   |               |  /* sched_wakeup: comm=kworker/1:2 pid=25349 prio=120 target_cpu=001 */
+  1)  prog3-31538   |   0.558 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31538   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31538 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31539 next_prio=49 */
+  1)  prog3-31538   =>  prog3-31539  
+  1)  prog3-31539   |   0.316 us    |  __do_sys_getppid();
+  1)  prog3-31539   |   0.112 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31539   |   0.644 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31539   |   0.828 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31539   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31539 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31540 next_prio=49 */
+  1)  prog3-31539   =>  prog3-31540  
+  1)  prog3-31540   |   0.330 us    |  __do_sys_getppid();
+  1)  prog3-31540   |   0.120 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31540   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31540 prev_prio=49 prev_state=R ==> next_comm=kworker/1:2 next_pid=25349 next_prio=120 */
+  1)  prog3-31540   => kworker-25349 
+  1)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/1 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31540 next_prio=49 */
+  1)    <idle>-0    =>  prog3-31540  
+  1)  prog3-31540   |   0.747 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31540   |               |  /* sched_wakeup: comm=kworker/1:2 pid=25349 prio=120 target_cpu=001 */
+  1)  prog3-31540   |   0.425 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31540   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31540 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31541 next_prio=49 */
+  1)  prog3-31540   =>  prog3-31541  
+  1)  prog3-31541   |   0.618 us    |  __do_sys_getppid();
+  1)  prog3-31541   |   0.086 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31541   |   1.178 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31541   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31541 prev_prio=49 prev_state=R ==> next_comm=kworker/1:2 next_pid=25349 next_prio=120 */
+  1)  prog3-31541   => kworker-25349 
+  1)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/1 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31541 next_prio=49 */
+  1)    <idle>-0    =>  prog3-31541  
+  1)  prog3-31541   |   0.556 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31541   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31541 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31542 next_prio=49 */
+  1)  prog3-31541   =>  prog3-31542  
+  1)  prog3-31542   |               |  /* sched_wakeup: comm=kworker/1:2 pid=25349 prio=120 target_cpu=001 */
+  1)  prog3-31542   |   0.221 us    |  __do_sys_getppid();
+  1)  prog3-31542   |   0.090 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31542   |   0.944 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31542   |   0.851 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31542   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31542 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31543 next_prio=49 */
+  1)  prog3-31542   =>  prog3-31543  
+  1)  prog3-31543   |   0.340 us    |  __do_sys_getppid();
+  1)  prog3-31543   |   0.121 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31543   |               |  stop_one_cpu_nowait() {
+  1)  prog3-31543   |               |  /* sched_wakeup: comm=migration/1 pid=21 prio=0 target_cpu=001 */
+  1)  prog3-31543   |   1.298 us    |  }
+  1)  prog3-31543   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31543 prev_prio=49 prev_state=R ==> next_comm=migration/1 next_pid=21 next_prio=0 */
+  1)  prog3-31543   =>   migrati-21  
+  1)   migrati-21   |               |  /* sched_switch: prev_comm=migration/1 prev_pid=21 prev_prio=0 prev_state=S ==> next_comm=prog3 next_pid=31543 next_prio=49 */
+  1)   migrati-21   =>  prog3-31543  
+  1)  prog3-31543   |   0.761 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31543   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31543 prev_prio=49 prev_state=R ==> next_comm=kworker/1:2 next_pid=25349 next_prio=120 */
+  1)  prog3-31543   => kworker-25349 
+  1)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/1 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31543 next_prio=49 */
+  1)    <idle>-0    =>  prog3-31543  
+  1)  prog3-31543   |               |  /* sched_wakeup: comm=kworker/1:2 pid=25349 prio=120 target_cpu=001 */
+  1)  prog3-31543   |   0.912 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31543   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31543 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31544 next_prio=49 */
+  1)  prog3-31543   =>  prog3-31544  
+  1)  prog3-31544   |   0.296 us    |  __do_sys_getppid();
+  1)  prog3-31544   |   0.122 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31544   |   0.901 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31544   |   0.811 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31544   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31544 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31545 next_prio=49 */
+  1)  prog3-31544   =>  prog3-31545  
+  1)  prog3-31545   |   0.386 us    |  __do_sys_getppid();
+  1)  prog3-31545   |   0.122 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31545   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31545 prev_prio=49 prev_state=R ==> next_comm=kworker/1:2 next_pid=25349 next_prio=120 */
+  1)  prog3-31545   => kworker-25349 
+  1)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/1 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31545 next_prio=49 */
+  1)    <idle>-0    =>  prog3-31545  
+  1)  prog3-31545   |   0.558 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31545   |               |  /* sched_wakeup: comm=kworker/1:2 pid=25349 prio=120 target_cpu=001 */
+  1)  prog3-31545   |   0.573 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31545   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31545 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31546 next_prio=49 */
+  1)  prog3-31545   =>  prog3-31546  
+  1)  prog3-31546   |   0.432 us    |  __do_sys_getppid();
+  1)  prog3-31546   |   0.095 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31546   |   0.819 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31546   |   0.672 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31546   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31546 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31547 next_prio=49 */
+  1)  prog3-31546   =>  prog3-31547  
+  1)  prog3-31547   |   0.347 us    |  __do_sys_getppid();
+  1)  prog3-31547   |   0.131 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31547   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31547 prev_prio=49 prev_state=R ==> next_comm=kworker/1:2 next_pid=25349 next_prio=120 */
+  1)  prog3-31547   => kworker-25349 
+  1)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/1 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31547 next_prio=49 */
+  1)    <idle>-0    =>  prog3-31547  
+  1)  prog3-31547   |   0.760 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31547   |               |  /* sched_wakeup: comm=kworker/1:2 pid=25349 prio=120 target_cpu=001 */
+  1)  prog3-31547   |   0.931 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31547   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31547 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31515 next_prio=49 */
+  1)  prog3-31547   =>  prog3-31515  
+  1)  prog3-31515   |   18522632 us |  } /* do_wait */
+  1)  prog3-31515   |   0.154 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   4.103 us    |  do_wait();
+  1)  prog3-31515   |   0.094 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.391 us    |  do_wait();
+  1)  prog3-31515   |   0.091 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.865 us    |  do_wait();
+  1)  prog3-31515   |   0.091 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.528 us    |  do_wait();
+  1)  prog3-31515   |   0.092 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.962 us    |  do_wait();
+  1)  prog3-31515   |   0.088 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.668 us    |  do_wait();
+  1)  prog3-31515   |   0.087 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.697 us    |  do_wait();
+  1)  prog3-31515   |   0.089 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.529 us    |  do_wait();
+  1)  prog3-31515   |   0.087 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.911 us    |  do_wait();
+  1)  prog3-31515   |   0.086 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   3.578 us    |  do_wait();
+  1)  prog3-31515   |   0.092 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   3.155 us    |  do_wait();
+  1)  prog3-31515   |   0.089 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   19.756 us   |  do_wait();
+  1)  prog3-31515   |   0.094 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   3.130 us    |  do_wait();
+  1)  prog3-31515   |   0.091 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.510 us    |  do_wait();
+  1)  prog3-31515   |   0.091 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   3.224 us    |  do_wait();
+  1)  prog3-31515   |   0.090 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.518 us    |  do_wait();
+  1)  prog3-31515   |   0.094 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   3.090 us    |  do_wait();
+  1)  prog3-31515   |   0.104 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.825 us    |  do_wait();
+  1)  prog3-31515   |   0.092 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.423 us    |  do_wait();
+  1)  prog3-31515   |   0.090 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.660 us    |  do_wait();
+  1)  prog3-31515   |   0.093 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.674 us    |  do_wait();
+  1)  prog3-31515   |   0.091 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   3.259 us    |  do_wait();
+  1)  prog3-31515   |   0.089 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.399 us    |  do_wait();
+  1)  prog3-31515   |   0.093 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.676 us    |  do_wait();
+  1)  prog3-31515   |   0.090 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.831 us    |  do_wait();
+  1)  prog3-31515   |   0.092 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.507 us    |  do_wait();
+  1)  prog3-31515   |   0.094 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.604 us    |  do_wait();
+  1)  prog3-31515   |   0.093 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.352 us    |  do_wait();
+  1)  prog3-31515   |   0.089 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.750 us    |  do_wait();
+  1)  prog3-31515   |   0.089 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.185 us    |  do_wait();
+  1)  prog3-31515   |   0.102 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   2.056 us    |  do_wait();
+  1)  prog3-31515   |   0.095 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |   0.138 us    |  do_wait();
+  1)  prog3-31515   |   0.086 us    |  tty_ldisc_ref_wait();
+  1)  prog3-31515   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31515 prev_prio=49 prev_state=Z ==> next_comm=kworker/1:2 next_pid=25349 next_prio=120 */
+  1)  prog3-31515   => kworker-25349 
+  0)    <idle>-0    =>  prog3-31619  
+  0)  prog3-31619   |   0.540 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   0.087 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |               |  do_wait() {
+  0)  prog3-31619   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31619 prev_prio=49 prev_state=S ==> next_comm=prog3 next_pid=31620 next_prio=49 */
+  0)  prog3-31619   =>  prog3-31620  
+  0)  prog3-31620   |   0.141 us    |  __do_sys_getppid();
+  0)  prog3-31620   |   0.117 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31620   |               |  /* sched_wakeup: comm=kworker/0:1 pid=17 prio=120 target_cpu=000 */
+  0)  prog3-31620   |   0.766 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31620   |   0.154 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31620   |               |  /* sched_wakeup: comm=prog3 pid=31619 prio=49 target_cpu=000 */
+  0)  prog3-31620   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31620 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31621 next_prio=49 */
+  0)  prog3-31620   =>  prog3-31621  
+  0)  prog3-31621   |   0.283 us    |  __do_sys_getppid();
+  0)  prog3-31621   |   0.109 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31621   |   0.237 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31621   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31621 prev_prio=49 prev_state=R ==> next_comm=kworker/0:1 next_pid=17 next_prio=120 */
+  0)  prog3-31621   =>   kworker-17  
+  0)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/0 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31621 next_prio=49 */
+  0)    <idle>-0    =>  prog3-31621  
+  0)  prog3-31621   |   0.583 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31621   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31621 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31622 next_prio=49 */
+  0)  prog3-31621   =>  prog3-31622  
+  0)  prog3-31622   |   0.382 us    |  __do_sys_getppid();
+  0)  prog3-31622   |   0.152 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31622   |               |  /* sched_wakeup: comm=kworker/0:1 pid=17 prio=120 target_cpu=000 */
+  0)  prog3-31622   |               |  stop_one_cpu_nowait() {
+  0)  prog3-31622   |               |  /* sched_wakeup: comm=migration/0 pid=15 prio=0 target_cpu=000 */
+  0)  prog3-31622   |   1.515 us    |  }
+  0)  prog3-31622   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31622 prev_prio=49 prev_state=R ==> next_comm=migration/0 next_pid=15 next_prio=0 */
+  0)  prog3-31622   =>   migrati-15  
+  0)   migrati-15   |               |  /* sched_switch: prev_comm=migration/0 prev_pid=15 prev_prio=0 prev_state=S ==> next_comm=prog3 next_pid=31622 next_prio=49 */
+  0)   migrati-15   =>  prog3-31622  
+  0)  prog3-31622   |   0.131 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31622   |   0.778 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31622   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31622 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31623 next_prio=49 */
+  0)  prog3-31622   =>  prog3-31623  
+  0)  prog3-31623   |   0.356 us    |  __do_sys_getppid();
+  0)  prog3-31623   |   0.103 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31623   |   0.638 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31623   |               |  /* sched_wakeup: comm=ksoftirqd/0 pid=13 prio=120 target_cpu=000 */
+  0)  prog3-31623   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31623 prev_prio=49 prev_state=R ==> next_comm=ksoftirqd/0 next_pid=13 next_prio=120 */
+  0)  prog3-31623   =>   ksoftir-13  
+  0)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/0 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31623 next_prio=49 */
+  0)    <idle>-0    =>  prog3-31623  
+  0)  prog3-31623   |               |  /* sched_wakeup: comm=kworker/0:1 pid=17 prio=120 target_cpu=000 */
+  0)  prog3-31623   |   1.071 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31623   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31623 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31624 next_prio=49 */
+  0)  prog3-31623   =>  prog3-31624  
+  0)  prog3-31624   |   0.291 us    |  __do_sys_getppid();
+  0)  prog3-31624   |   0.134 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31624   |   0.940 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31624   |   0.760 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31624   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31624 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31625 next_prio=49 */
+  0)  prog3-31624   =>  prog3-31625  
+  0)  prog3-31625   |   0.275 us    |  __do_sys_getppid();
+  0)  prog3-31625   |   0.105 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31625   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31625 prev_prio=49 prev_state=R ==> next_comm=kworker/0:1 next_pid=17 next_prio=120 */
+  0)  prog3-31625   =>   kworker-17  
+  0)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/0 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31625 next_prio=49 */
+  0)    <idle>-0    =>  prog3-31625  
+  0)  prog3-31625   |               |  /* sched_wakeup: comm=kworker/0:1 pid=17 prio=120 target_cpu=000 */
+  0)  prog3-31625   |   0.502 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31625   |   0.882 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31625   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31625 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31626 next_prio=49 */
+  0)  prog3-31625   =>  prog3-31626  
+  0)  prog3-31626   |   0.320 us    |  __do_sys_getppid();
+  0)  prog3-31626   |   0.107 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31626   |   0.878 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31626   |   0.613 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31626   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31626 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31627 next_prio=49 */
+  0)  prog3-31626   =>  prog3-31627  
+  0)  prog3-31627   |   0.289 us    |  __do_sys_getppid();
+  0)  prog3-31627   |   0.099 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31627   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31627 prev_prio=49 prev_state=R ==> next_comm=kworker/0:1 next_pid=17 next_prio=120 */
+  0)  prog3-31627   =>   kworker-17  
+  0)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/0 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31627 next_prio=49 */
+  0)    <idle>-0    =>  prog3-31627  
+  0)  prog3-31627   |               |  /* sched_wakeup: comm=kworker/0:1 pid=17 prio=120 target_cpu=000 */
+  0)  prog3-31627   |   0.886 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31627   |   0.705 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31627   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31627 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31628 next_prio=49 */
+  0)  prog3-31627   =>  prog3-31628  
+  0)  prog3-31628   |   0.304 us    |  __do_sys_getppid();
+  0)  prog3-31628   |   0.121 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31628   |   0.747 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31628   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31628 prev_prio=49 prev_state=R ==> next_comm=kworker/0:1 next_pid=17 next_prio=120 */
+  0)  prog3-31628   =>   kworker-17  
+  0)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/0 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31628 next_prio=49 */
+  0)    <idle>-0    =>  prog3-31628  
+  0)  prog3-31628   |   1.429 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31628   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31628 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31629 next_prio=49 */
+  0)  prog3-31628   =>  prog3-31629  
+  0)  prog3-31629   |               |  /* sched_wakeup: comm=kworker/0:1 pid=17 prio=120 target_cpu=000 */
+  0)  prog3-31629   |   0.195 us    |  __do_sys_getppid();
+  0)  prog3-31629   |   0.200 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31629   |               |  stop_one_cpu_nowait() {
+  0)  prog3-31629   |               |  /* sched_wakeup: comm=migration/0 pid=15 prio=0 target_cpu=000 */
+  0)  prog3-31629   |   2.208 us    |  }
+  0)  prog3-31629   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31629 prev_prio=49 prev_state=R ==> next_comm=migration/0 next_pid=15 next_prio=0 */
+  0)  prog3-31629   =>   migrati-15  
+  0)   migrati-15   |               |  /* sched_switch: prev_comm=migration/0 prev_pid=15 prev_prio=0 prev_state=S ==> next_comm=prog3 next_pid=31629 next_prio=49 */
+  0)   migrati-15   =>  prog3-31629  
+  0)  prog3-31629   |   1.063 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31629   |   0.919 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31629   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31629 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31630 next_prio=49 */
+  0)  prog3-31629   =>  prog3-31630  
+  0)  prog3-31630   |   0.239 us    |  __do_sys_getppid();
+  0)  prog3-31630   |   0.098 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31630   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31630 prev_prio=49 prev_state=R ==> next_comm=kworker/0:1 next_pid=17 next_prio=120 */
+  0)  prog3-31630   =>   kworker-17  
+  0)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/0 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31630 next_prio=49 */
+  0)    <idle>-0    =>  prog3-31630  
+  0)  prog3-31630   |   0.497 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31630   |               |  /* sched_wakeup: comm=kworker/0:1 pid=17 prio=120 target_cpu=000 */
+  0)  prog3-31630   |   0.922 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31630   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31630 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31631 next_prio=49 */
+  0)  prog3-31630   =>  prog3-31631  
+  0)  prog3-31631   |   0.315 us    |  __do_sys_getppid();
+  0)  prog3-31631   |   0.119 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31631   |   0.927 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31631   |   0.846 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31631   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31631 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31632 next_prio=49 */
+  0)  prog3-31631   =>  prog3-31632  
+  0)  prog3-31632   |   0.249 us    |  __do_sys_getppid();
+  0)  prog3-31632   |   0.119 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31632   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31632 prev_prio=49 prev_state=R ==> next_comm=kworker/0:1 next_pid=17 next_prio=120 */
+  0)  prog3-31632   =>   kworker-17  
+  0)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/0 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31632 next_prio=49 */
+  0)    <idle>-0    =>  prog3-31632  
+  0)  prog3-31632   |               |  /* sched_wakeup: comm=kworker/0:1 pid=17 prio=120 target_cpu=000 */
+  0)  prog3-31632   |   0.959 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31632   |   0.811 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31632   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31632 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31633 next_prio=49 */
+  0)  prog3-31632   =>  prog3-31633  
+  0)  prog3-31633   |   0.306 us    |  __do_sys_getppid();
+  0)  prog3-31633   |   0.166 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31633   |   0.863 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31633   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31633 prev_prio=49 prev_state=R ==> next_comm=kworker/0:1 next_pid=17 next_prio=120 */
+  0)  prog3-31633   =>   kworker-17  
+  0)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/0 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31633 next_prio=49 */
+  0)    <idle>-0    =>  prog3-31633  
+  0)  prog3-31633   |   0.760 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31633   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31633 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31634 next_prio=49 */
+  0)  prog3-31633   =>  prog3-31634  
+  0)  prog3-31634   |               |  /* sched_wakeup: comm=kworker/0:1 pid=17 prio=120 target_cpu=000 */
+  0)  prog3-31634   |   0.220 us    |  __do_sys_getppid();
+  0)  prog3-31634   |   0.121 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31634   |   0.902 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31634   |   1.007 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31634   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31634 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31635 next_prio=49 */
+  0)  prog3-31634   =>  prog3-31635  
+  0)  prog3-31635   |   0.249 us    |  __do_sys_getppid();
+  0)  prog3-31635   |   0.102 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31635   |   0.265 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31635   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31635 prev_prio=49 prev_state=R ==> next_comm=kworker/0:1 next_pid=17 next_prio=120 */
+  0)  prog3-31635   =>   kworker-17  
+  0)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/0 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31635 next_prio=49 */
+  0)    <idle>-0    =>  prog3-31635  
+  0)  prog3-31635   |               |  /* sched_wakeup: comm=kworker/0:1 pid=17 prio=120 target_cpu=000 */
+  0)  prog3-31635   |   0.563 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31635   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31635 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31636 next_prio=49 */
+  0)  prog3-31635   =>  prog3-31636  
+  0)  prog3-31636   |   0.266 us    |  __do_sys_getppid();
+  0)  prog3-31636   |   0.130 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31636   |               |  stop_one_cpu_nowait() {
+  0)  prog3-31636   |               |  /* sched_wakeup: comm=migration/0 pid=15 prio=0 target_cpu=000 */
+  0)  prog3-31636   |   2.198 us    |  }
+  0)  prog3-31636   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31636 prev_prio=49 prev_state=R ==> next_comm=migration/0 next_pid=15 next_prio=0 */
+  0)  prog3-31636   =>   migrati-15  
+  0)   migrati-15   |               |  /* sched_switch: prev_comm=migration/0 prev_pid=15 prev_prio=0 prev_state=S ==> next_comm=prog3 next_pid=31636 next_prio=49 */
+  0)   migrati-15   =>  prog3-31636  
+  0)  prog3-31636   |   0.696 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31636   |   0.642 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31636   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31636 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31637 next_prio=49 */
+  0)  prog3-31636   =>  prog3-31637  
+  0)  prog3-31637   |   0.208 us    |  __do_sys_getppid();
+  0)  prog3-31637   |   0.125 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31637   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31637 prev_prio=49 prev_state=R ==> next_comm=kworker/0:1 next_pid=17 next_prio=120 */
+  0)  prog3-31637   =>   kworker-17  
+  0)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/0 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31637 next_prio=49 */
+  0)    <idle>-0    =>  prog3-31637  
+  0)  prog3-31637   |               |  /* sched_wakeup: comm=kworker/0:1 pid=17 prio=120 target_cpu=000 */
+  0)  prog3-31637   |   0.610 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31637   |   0.944 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31637   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31637 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31638 next_prio=49 */
+  0)  prog3-31637   =>  prog3-31638  
+  0)  prog3-31638   |   0.319 us    |  __do_sys_getppid();
+  0)  prog3-31638   |   0.198 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31638   |   0.717 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31638   |   0.607 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31638   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31638 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31639 next_prio=49 */
+  0)  prog3-31638   =>  prog3-31639  
+  0)  prog3-31639   |   0.267 us    |  __do_sys_getppid();
+  0)  prog3-31639   |   0.205 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31639   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31639 prev_prio=49 prev_state=R ==> next_comm=kworker/0:1 next_pid=17 next_prio=120 */
+  0)  prog3-31639   =>   kworker-17  
+  0)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/0 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31639 next_prio=49 */
+  0)    <idle>-0    =>  prog3-31639  
+  0)  prog3-31639   |               |  /* sched_wakeup: comm=kworker/0:1 pid=17 prio=120 target_cpu=000 */
+  0)  prog3-31639   |   0.724 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31639   |   0.183 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31639   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31639 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31640 next_prio=49 */
+  0)  prog3-31639   =>  prog3-31640  
+  0)  prog3-31640   |   0.248 us    |  __do_sys_getppid();
+  0)  prog3-31640   |   0.112 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31640   |   0.219 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31640   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31640 prev_prio=49 prev_state=R ==> next_comm=kworker/0:1 next_pid=17 next_prio=120 */
+  0)  prog3-31640   =>   kworker-17  
+  0)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/0 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31640 next_prio=49 */
+  0)    <idle>-0    =>  prog3-31640  
+  0)  prog3-31640   |   0.893 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31640   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31640 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31641 next_prio=49 */
+  0)  prog3-31640   =>  prog3-31641  
+  0)  prog3-31641   |               |  /* sched_wakeup: comm=kworker/0:1 pid=17 prio=120 target_cpu=000 */
+  0)  prog3-31641   |   0.234 us    |  __do_sys_getppid();
+  0)  prog3-31641   |   0.125 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31641   |   1.305 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31641   |   0.638 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31641   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31641 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31642 next_prio=49 */
+  0)  prog3-31641   =>  prog3-31642  
+  0)  prog3-31642   |   0.304 us    |  __do_sys_getppid();
+  0)  prog3-31642   |   0.119 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31642   |   0.754 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31642   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31642 prev_prio=49 prev_state=R ==> next_comm=kworker/0:1 next_pid=17 next_prio=120 */
+  0)  prog3-31642   =>   kworker-17  
+  0)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/0 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31642 next_prio=49 */
+  0)    <idle>-0    =>  prog3-31642  
+  0)  prog3-31642   |               |  /* sched_wakeup: comm=kworker/0:1 pid=17 prio=120 target_cpu=000 */
+  0)  prog3-31642   |   0.414 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31642   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31642 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31643 next_prio=49 */
+  0)  prog3-31642   =>  prog3-31643  
+  0)  prog3-31643   |   0.303 us    |  __do_sys_getppid();
+  0)  prog3-31643   |   0.246 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31643   |               |  stop_one_cpu_nowait() {
+  0)  prog3-31643   |               |  /* sched_wakeup: comm=migration/0 pid=15 prio=0 target_cpu=000 */
+  0)  prog3-31643   |   1.744 us    |  }
+  0)  prog3-31643   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31643 prev_prio=49 prev_state=R ==> next_comm=migration/0 next_pid=15 next_prio=0 */
+  0)  prog3-31643   =>   migrati-15  
+  0)   migrati-15   |               |  /* sched_switch: prev_comm=migration/0 prev_pid=15 prev_prio=0 prev_state=S ==> next_comm=prog3 next_pid=31643 next_prio=49 */
+  0)   migrati-15   =>  prog3-31643  
+  0)  prog3-31643   |   0.539 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31643   |   0.162 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31643   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31643 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31644 next_prio=49 */
+  0)  prog3-31643   =>  prog3-31644  
+  0)  prog3-31644   |   0.255 us    |  __do_sys_getppid();
+  0)  prog3-31644   |   0.125 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31644   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31644 prev_prio=49 prev_state=R ==> next_comm=kworker/0:1 next_pid=17 next_prio=120 */
+  0)  prog3-31644   =>   kworker-17  
+  0)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/0 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31644 next_prio=49 */
+  0)    <idle>-0    =>  prog3-31644  
+  0)  prog3-31644   |               |  /* sched_wakeup: comm=kworker/0:1 pid=17 prio=120 target_cpu=000 */
+  0)  prog3-31644   |   0.702 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31644   |   1.046 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31644   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31644 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31645 next_prio=49 */
+  0)  prog3-31644   =>  prog3-31645  
+  0)  prog3-31645   |   0.231 us    |  __do_sys_getppid();
+  0)  prog3-31645   |   0.178 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31645   |   0.430 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31645   |   0.260 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31645   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31645 prev_prio=49 prev_state=Z ==> next_comm=kworker/0:1 next_pid=17 next_prio=120 */
+  0)  prog3-31645   =>   kworker-17  
+  0)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/0 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31646 next_prio=49 */
+  0)    <idle>-0    =>  prog3-31646  
+  0)  prog3-31646   |   1.041 us    |  __do_sys_getppid();
+  0)  prog3-31646   |   0.415 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31646   |               |  /* sched_wakeup: comm=kworker/0:1 pid=17 prio=120 target_cpu=000 */
+  0)  prog3-31646   |   0.735 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31646   |   0.224 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31646   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31646 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31647 next_prio=49 */
+  0)  prog3-31646   =>  prog3-31647  
+  0)  prog3-31647   |   0.267 us    |  __do_sys_getppid();
+  0)  prog3-31647   |   0.107 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31647   |   0.315 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31647   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31647 prev_prio=49 prev_state=R ==> next_comm=kworker/0:1 next_pid=17 next_prio=120 */
+  0)  prog3-31647   =>   kworker-17  
+  0)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/0 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31647 next_prio=49 */
+  0)    <idle>-0    =>  prog3-31647  
+  0)  prog3-31647   |   0.492 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31647   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31647 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31648 next_prio=49 */
+  0)  prog3-31647   =>  prog3-31648  
+  0)  prog3-31648   |               |  /* sched_wakeup: comm=kworker/0:1 pid=17 prio=120 target_cpu=000 */
+  0)  prog3-31648   |   0.231 us    |  __do_sys_getppid();
+  0)  prog3-31648   |   0.116 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31648   |   1.412 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31648   |   0.713 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31648   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31648 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31649 next_prio=49 */
+  0)  prog3-31648   =>  prog3-31649  
+  0)  prog3-31649   |   0.279 us    |  __do_sys_getppid();
+  0)  prog3-31649   |   0.110 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31649   |   0.743 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31649   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31649 prev_prio=49 prev_state=R ==> next_comm=kworker/0:1 next_pid=17 next_prio=120 */
+  0)  prog3-31649   =>   kworker-17  
+  0)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/0 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31649 next_prio=49 */
+  0)    <idle>-0    =>  prog3-31649  
+  0)  prog3-31649   |               |  /* sched_wakeup: comm=kworker/0:1 pid=17 prio=120 target_cpu=000 */
+  0)  prog3-31649   |   0.485 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31649   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31649 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31650 next_prio=49 */
+  0)  prog3-31649   =>  prog3-31650  
+  0)  prog3-31650   |   0.311 us    |  __do_sys_getppid();
+  0)  prog3-31650   |   0.126 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31650   |               |  stop_one_cpu_nowait() {
+  0)  prog3-31650   |               |  /* sched_wakeup: comm=migration/0 pid=15 prio=0 target_cpu=000 */
+  0)  prog3-31650   |   1.094 us    |  }
+  0)  prog3-31650   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31650 prev_prio=49 prev_state=R ==> next_comm=migration/0 next_pid=15 next_prio=0 */
+  0)  prog3-31650   =>   migrati-15  
+  0)   migrati-15   |               |  /* sched_switch: prev_comm=migration/0 prev_pid=15 prev_prio=0 prev_state=S ==> next_comm=prog3 next_pid=31650 next_prio=49 */
+  0)   migrati-15   =>  prog3-31650  
+  0)  prog3-31650   |   0.638 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31650   |   0.589 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31650   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31650 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31651 next_prio=49 */
+  0)  prog3-31650   =>  prog3-31651  
+  0)  prog3-31651   |   0.271 us    |  __do_sys_getppid();
+  0)  prog3-31651   |   0.135 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31651   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31651 prev_prio=49 prev_state=R ==> next_comm=kworker/0:1 next_pid=17 next_prio=120 */
+  0)  prog3-31651   =>   kworker-17  
+  0)    <idle>-0    |               |  /* sched_switch: prev_comm=swapper/0 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=prog3 next_pid=31651 next_prio=49 */
+  0)    <idle>-0    =>  prog3-31651  
+  0)  prog3-31651   |               |  /* sched_wakeup: comm=kworker/0:1 pid=17 prio=120 target_cpu=000 */
+  0)  prog3-31651   |   1.348 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31651   |   0.872 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31651   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31651 prev_prio=49 prev_state=Z ==> next_comm=prog3 next_pid=31619 next_prio=49 */
+  0)  prog3-31651   =>  prog3-31619  
+  0)  prog3-31619   |   18417748 us |  } /* do_wait */
+  0)  prog3-31619   |   0.101 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.549 us    |  do_wait();
+  0)  prog3-31619   |   0.086 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   3.786 us    |  do_wait();
+  0)  prog3-31619   |   0.085 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.623 us    |  do_wait();
+  0)  prog3-31619   |   0.084 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.715 us    |  do_wait();
+  0)  prog3-31619   |   0.082 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.602 us    |  do_wait();
+  0)  prog3-31619   |   0.085 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.688 us    |  do_wait();
+  0)  prog3-31619   |   0.085 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   3.721 us    |  do_wait();
+  0)  prog3-31619   |   0.084 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.646 us    |  do_wait();
+  0)  prog3-31619   |   0.083 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.266 us    |  do_wait();
+  0)  prog3-31619   |   0.082 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.764 us    |  do_wait();
+  0)  prog3-31619   |   0.082 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.425 us    |  do_wait();
+  0)  prog3-31619   |   0.083 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.256 us    |  do_wait();
+  0)  prog3-31619   |   0.084 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.372 us    |  do_wait();
+  0)  prog3-31619   |   0.082 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.282 us    |  do_wait();
+  0)  prog3-31619   |   0.084 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.314 us    |  do_wait();
+  0)  prog3-31619   |   0.083 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.328 us    |  do_wait();
+  0)  prog3-31619   |   0.082 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.401 us    |  do_wait();
+  0)  prog3-31619   |   0.083 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.378 us    |  do_wait();
+  0)  prog3-31619   |   0.082 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.337 us    |  do_wait();
+  0)  prog3-31619   |   0.083 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.401 us    |  do_wait();
+  0)  prog3-31619   |   0.083 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.228 us    |  do_wait();
+  0)  prog3-31619   |   0.083 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.614 us    |  do_wait();
+  0)  prog3-31619   |   0.082 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.077 us    |  do_wait();
+  0)  prog3-31619   |   0.086 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.413 us    |  do_wait();
+  0)  prog3-31619   |   0.085 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   1.940 us    |  do_wait();
+  0)  prog3-31619   |   0.078 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.638 us    |  do_wait();
+  0)  prog3-31619   |   0.089 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.353 us    |  do_wait();
+  0)  prog3-31619   |   0.082 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.206 us    |  do_wait();
+  0)  prog3-31619   |   0.083 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.087 us    |  do_wait();
+  0)  prog3-31619   |   0.083 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   2.386 us    |  do_wait();
+  0)  prog3-31619   |   0.085 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   1.776 us    |  do_wait();
+  0)  prog3-31619   |   0.087 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |   0.116 us    |  do_wait();
+  0)  prog3-31619   |   0.084 us    |  tty_ldisc_ref_wait();
+  0)  prog3-31619   |               |  /* sched_switch: prev_comm=prog3 prev_pid=31619 prev_prio=49 prev_state=Z ==> next_comm=kworker/0:1 next_pid=17 next_prio=120 */
+  0)  prog3-31619   =>   kworker-17  
+root@pitatir-Lenovo-Legion-Y9000P2021H:/sys/kernel/debug/tracing# 

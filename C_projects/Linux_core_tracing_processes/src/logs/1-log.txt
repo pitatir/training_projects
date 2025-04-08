@@ -1,0 +1,113 @@
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:/$ sudo su
+root@pitatir-Lenovo-Legion-Y9000P2021H:/# cd /sys/kernel/debug/tracing
+root@pitatir-Lenovo-Legion-Y9000P2021H:/sys/kernel/debug/tracing# /home/pitatir/LR7/ftrace.sh
+kernel.ftrace_enabled = 1
+Родительский процесс: pid = 18244 ppid = 18241
+Дочерний процесс: pid = 18245 ppid = 18244
+Процесс pid = 18244 завершен
+root@pitatir-Lenovo-Legion-Y9000P2021H:/sys/kernel/debug/tracing# 
+root@pitatir-Lenovo-Legion-Y9000P2021H:/sys/kernel/debug/tracing# cat trace | grep -E '1f|1s'
+              1f-18244   [010] ..... 20636.781503: path_noexec <-may_open
+              1f-18244   [010] ..... 20636.781509: sched_exec <-bprm_execve.part.0
+              1f-18244   [010] ..... 20636.781514: security_bprm_creds_for_exec <-bprm_execve.part.0
+              1f-18244   [010] ..... 20636.781514: apparmor_bprm_creds_for_exec <-security_bprm_creds_for_exec
+              1f-18244   [010] ..... 20636.781538: open_exec <-load_elf_binary
+              1f-18244   [010] ..... 20636.781545: path_noexec <-may_open
+              1f-18244   [010] ..... 20636.781551: begin_new_exec <-load_elf_binary
+              1f-18244   [010] ..... 20636.781561: do_close_on_exec <-begin_new_exec
+              1f-18244   [010] ..... 20636.781565: setup_new_exec <-load_elf_binary
+              1f-18244   [010] ..... 20636.781566: arch_setup_new_exec <-setup_new_exec
+              1f-18244   [010] ..... 20636.781593: path_noexec <-do_mmap
+              1f-18244   [010] ..... 20636.781604: path_noexec <-do_mmap
+              1f-18244   [010] ..... 20636.781605: path_noexec <-do_mmap
+              1f-18244   [010] ..... 20636.781608: path_noexec <-do_mmap
+              1f-18244   [010] ..... 20636.781622: path_noexec <-do_mmap
+              1f-18244   [010] ..... 20636.781634: path_noexec <-do_mmap
+              1f-18244   [010] ..... 20636.781636: path_noexec <-do_mmap
+              1f-18244   [010] ..... 20636.781639: path_noexec <-do_mmap
+              1f-18244   [010] ..... 20636.781663: finalize_exec <-load_elf_binary
+              1f-18244   [010] ..... 20636.781797: path_noexec <-do_mmap
+              1f-18244   [010] ..... 20636.781830: path_noexec <-do_mmap
+              1f-18244   [010] ..... 20636.781851: path_noexec <-do_mmap
+              1f-18244   [010] ..... 20636.781862: path_noexec <-do_mmap
+              1f-18244   [010] ..... 20636.781866: path_noexec <-do_mmap
+              1f-18244   [010] ..... 20636.782116: __do_sys_getppid <-x64_sys_call
+              1f-18244   [010] ..... 20636.782117: __do_sys_getpid <-x64_sys_call
+              1f-18244   [010] ..... 20636.782169: tty_ldisc_ref_wait <-file_tty_write.constprop.0
+              1f-18244   [010] ..... 20636.782194: cgroup_fork <-copy_process
+              1f-18244   [010] ..... 20636.782194: sched_fork <-copy_process
+              1f-18244   [010] ..... 20636.782194: __sched_fork <-sched_fork
+              1f-18244   [010] ..... 20636.782201: tty_audit_fork <-copy_signal
+              1f-18244   [010] ..... 20636.782201: sched_autogroup_fork <-copy_signal
+              1f-18244   [010] ..... 20636.782206: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782207: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782208: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782208: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782216: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782218: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782222: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782227: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782228: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782229: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782230: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782230: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782236: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782240: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782242: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782244: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782245: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782245: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782247: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782249: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782250: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782254: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782256: anon_vma_fork <-dup_mmap
+              1f-18244   [010] ..... 20636.782261: cgroup_can_fork <-copy_process
+              1f-18244   [010] ..... 20636.782261: cgroup_css_set_fork <-cgroup_can_fork
+              1f-18244   [010] ..... 20636.782261: pids_can_fork <-cgroup_can_fork
+              1f-18244   [010] ..... 20636.782263: sched_cgroup_fork <-copy_process
+              1f-18244   [010] d.... 20636.782265: sched_core_fork <-copy_process
+              1f-18244   [010] ..... 20636.782266: sched_post_fork <-copy_process
+              1f-18244   [010] ..... 20636.782266: cgroup_post_fork <-copy_process
+              1f-18244   [010] ..... 20636.782267: cpuset_fork <-cgroup_post_fork
+              1f-18244   [010] ..... 20636.782267: cpu_cgroup_fork <-cgroup_post_fork
+              1f-18244   [010] ..... 20636.782272: freezer_fork <-cgroup_post_fork
+              1f-18244   [010] ..... 20636.782272: cgroup_css_set_put_fork <-cgroup_post_fork
+              1f-18244   [010] ..... 20636.782296: do_wait <-kernel_wait4
+              1s-18245   [011] ..... 20636.782508: path_noexec <-may_open
+              1s-18245   [011] ..... 20636.782514: sched_exec <-bprm_execve.part.0
+              1s-18245   [011] ..... 20636.782520: security_bprm_creds_for_exec <-bprm_execve.part.0
+              1s-18245   [011] ..... 20636.782520: apparmor_bprm_creds_for_exec <-security_bprm_creds_for_exec
+              1s-18245   [011] ..... 20636.782538: open_exec <-load_elf_binary
+              1s-18245   [011] ..... 20636.782544: path_noexec <-may_open
+              1s-18245   [011] ..... 20636.782547: begin_new_exec <-load_elf_binary
+              1s-18245   [011] ..... 20636.782610: do_close_on_exec <-begin_new_exec
+              1s-18245   [011] ..... 20636.782613: setup_new_exec <-load_elf_binary
+              1s-18245   [011] ..... 20636.782615: arch_setup_new_exec <-setup_new_exec
+              1s-18245   [011] ..... 20636.782637: path_noexec <-do_mmap
+              1s-18245   [011] ..... 20636.782644: path_noexec <-do_mmap
+              1s-18245   [011] ..... 20636.782646: path_noexec <-do_mmap
+              1s-18245   [011] ..... 20636.782647: path_noexec <-do_mmap
+              1s-18245   [011] ..... 20636.782658: path_noexec <-do_mmap
+              1s-18245   [011] ..... 20636.782666: path_noexec <-do_mmap
+              1s-18245   [011] ..... 20636.782668: path_noexec <-do_mmap
+              1s-18245   [011] ..... 20636.782673: path_noexec <-do_mmap
+              1s-18245   [011] ..... 20636.782700: finalize_exec <-load_elf_binary
+              1s-18245   [011] ..... 20636.782831: path_noexec <-do_mmap
+              1s-18245   [011] ..... 20636.782859: path_noexec <-do_mmap
+              1s-18245   [011] ..... 20636.782870: path_noexec <-do_mmap
+              1s-18245   [011] ..... 20636.782878: path_noexec <-do_mmap
+              1s-18245   [011] ..... 20636.782883: path_noexec <-do_mmap
+              1s-18245   [011] ..... 20636.783115: __do_sys_getppid <-x64_sys_call
+              1s-18245   [011] ..... 20636.783116: __do_sys_getpid <-x64_sys_call
+              1s-18245   [011] ..... 20636.783170: tty_ldisc_ref_wait <-file_tty_write.constprop.0
+              1s-18245   [011] ..... 20636.783179: __x64_sys_clock_nanosleep <-x64_sys_call
+              1s-18245   [011] ..... 20636.783180: common_nsleep <-__x64_sys_clock_nanosleep
+              1s-18245   [011] ..... 20636.783180: hrtimer_nanosleep <-common_nsleep
+              1s-18245   [011] ..... 20636.783181: do_nanosleep <-hrtimer_nanosleep
+              1f-18244   [010] ..... 20638.783625: __do_sys_getpid <-x64_sys_call
+              1f-18244   [010] ..... 20638.783649: tty_ldisc_ref_wait <-file_tty_write.constprop.0
+root@pitatir-Lenovo-Legion-Y9000P2021H:/sys/kernel/debug/tracing# 
+
+
+

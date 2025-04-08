@@ -1,0 +1,15 @@
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/8$ gcc 8.c -o 8
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/8$ ./8
+Создан неименнованный канал
+Дочерний процесс читает данные из файла readFile.txt и записывает их в канал
+Родительский процесс читает данные из канала и записывает их в файл writeFile.txt
+
+Сообщения, полученные родительским процессом из канала:
+It's message!
+
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/8$ 
+
+
+
+Содержимое файлов readFile.txt и writeFile.txt:
+It's message!

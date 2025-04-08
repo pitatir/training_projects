@@ -1,0 +1,64 @@
+В терминале сервера:
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/12$ ./s
+Используем порт по умолчанию: 8888
+
+Адрес сокета 0.0.0.0:47138 (0.0.0.0:8888)
+Клиент отправил: Hello!
+Клиент отправил: Meow
+Ошибка получения данных клиента: Success
+^C
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/12$ 
+
+
+В терминале клиента:
+
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/12$ ifconfig
+enp88s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 84:a9:38:8c:cd:11  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enx00e04c68010e: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.105  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::c8dd:e7b:2cf9:390c  prefixlen 64  scopeid 0x20<link>
+        ether 00:e0:4c:68:01:0e  txqueuelen 1000  (Ethernet)
+        RX packets 240231  bytes 306960214 (306.9 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 93520  bytes 13323988 (13.3 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 3762  bytes 361093 (361.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 3762  bytes 361093 (361.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp0s20f3: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether f4:46:37:62:5b:6a  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/12$ ./c 192.168.0.105
+Используем порт по умолчанию: 8888
+
+Адрес сокета 192.168.0.105:47138 (192.168.0.105:8888)
+
+Введите сообщение
+Hello!
+Ответ сервера: Hello!
+
+Введите сообщение
+Meow
+Ответ сервера: Meow
+
+Введите сообщение
+
+Конец работы клиента
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/12$

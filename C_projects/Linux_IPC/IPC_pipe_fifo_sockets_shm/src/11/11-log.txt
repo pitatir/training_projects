@@ -1,0 +1,33 @@
+В терминале сервера:
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/11$ gcc server.c -o s
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/11$ gcc client1.c -o c1
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/11$ gcc client2.c -o c2
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/11$ ./s
+Используем файл с ключом по умолчанию key.txt
+Сообщение клиента типа 2: Клиент 1 подключился 
+Сообщение клиента типа 1: message 
+Сообщение клиента типа 1: hi 
+Сообщение клиента типа 3: Клиент 1 закончил свою работу 
+^C
+Работа сервера завершена
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/11$ 
+
+В терминале клиента 2:
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/11$ ./c2
+Используем файл с ключом по умолчанию key.txt
+Создание канала 1 для индикации работы клиента 1
+EPOLLIN: канал 1 открылся, подключился клиент 1
+EPOLLHUP: канал 1 закрылся, клиент 1 закончил свою работу
+^C
+Работа клиента 2 завершена
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/11$ 
+
+В терминале клиента 1:
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/11$ ./c1
+Используем файл с ключом по умолчанию key.txt
+Записываем в канал 1 "client1"
+message     
+hi
+^C
+Работа клиента 1 завершена
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR6/11$ 

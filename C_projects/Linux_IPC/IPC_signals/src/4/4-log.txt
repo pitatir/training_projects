@@ -1,0 +1,50 @@
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/4$ gcc 4.c -o 4
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/4$ ./4 &
+[1] 32900
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/4$ jobs
+[1]+  Running                 ./4 &
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/4$ ps -s
+  UID     PID   PENDING   BLOCKED   IGNORED    CAUGHT STAT TTY        TIME COMMAND
+ 1000   31686  00000000  00010000  00384004  4b813efb Ss   pts/0      0:00 bash
+ 1000   32900  00000000  00000000  00000000  00000200 S    pts/0      0:00 ./4
+ 1000   32901  00000000  00000000  00000000  73d1fef9 R+   pts/0      0:00 ps -s
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/4$ kill -SIGUSR1 %1
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/4$ Пойман сигнал SIGUSR1
+jobs
+[1]+  Running                 ./4 &
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/4$ ps -s
+  UID     PID   PENDING   BLOCKED   IGNORED    CAUGHT STAT TTY        TIME COMMAND
+ 1000   31686  00000000  00010000  00384004  4b813efb Ss   pts/0      0:00 bash
+ 1000   32900  00000000  00000202  00000000  00000200 S    pts/0      0:00 ./4
+ 1000   32902  00000000  00000000  00000000  73d1fef9 R+   pts/0      0:00 ps -s
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/4$ Oтправляем сигнал SIGINT
+jobs
+[1]+  Running                 ./4 &
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/4$ ps -s
+  UID     PID   PENDING   BLOCKED   IGNORED    CAUGHT STAT TTY        TIME COMMAND
+ 1000   31686  00000000  00010000  00384004  4b813efb Ss   pts/0      0:00 bash
+ 1000   32900  00000002  00000202  00000000  00000200 S    pts/0      0:00 ./4
+ 1000   32903  00000000  00000000  00000000  73d1fef9 R+   pts/0      0:00 ps -s
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/4$ Oтправляем сигнал SIGUSR1
+jobs
+[1]+  Running                 ./4 &
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/4$ ps -s
+  UID     PID   PENDING   BLOCKED   IGNORED    CAUGHT STAT TTY        TIME COMMAND
+ 1000   31686  00000000  00010000  00384004  4b813efb Ss   pts/0      0:00 bash
+ 1000   32900  00000202  00000202  00000000  00000200 S    pts/0      0:00 ./4
+ 1000   32904  00000000  00000000  00000000  73d1fef9 R+   pts/0      0:00 ps -s
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/4$ kill -SIGINT %1
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/4$ jobs
+[1]+  Running                 ./4 &
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/4$ ps -s
+  UID     PID   PENDING   BLOCKED   IGNORED    CAUGHT STAT TTY        TIME COMMAND
+ 1000   31686  00000000  00010000  00384004  4b813efb Ss   pts/0      0:00 bash
+ 1000   32900  00000202  00000202  00000000  00000200 S    pts/0      0:00 ./4
+ 1000   32910  00000000  00000000  00000000  73d1fef9 R+   pts/0      0:00 ps -s
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/4$ jobs
+[1]+  Interrupt               ./4
+pitatir@pitatir-Lenovo-Legion-Y9000P2021H:~/LR5/4$ ps -s
+  UID     PID   PENDING   BLOCKED   IGNORED    CAUGHT STAT TTY        TIME COMMAND
+ 1000   31686  00000000  00010000  00384004  4b813efb Ss   pts/0      0:00 bash
+ 1000   32919  00000000  00000000  00000000  73d1fef9 R+   pts/0      0:00 ps -s
+
