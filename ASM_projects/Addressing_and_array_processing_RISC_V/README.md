@@ -4,7 +4,7 @@
 
 ## Описание проекта
 
-В текущей директории расположен отчет _(Addressing_and_array_processing_report.pdf)_, 
+В текущей директории расположен отчет [Addressing_and_array_processing_report.pdf](https://github.com/pitatir/training_projects/blob/main/ASM_projects/Addressing_and_array_processing_RISC_V/Addressing_and_array_processing_report.pdf), 
 который содержит подробное описание проекта.
 
 Ключевые особенности проекта:
@@ -14,7 +14,7 @@
 
 ## Требования
 
-Установлен симулятор Ripes - [Ripes](https://ripes.me/Ripes/).
+Установлен симулятор [Ripes](https://ripes.me/Ripes/).
 
 ## Инструкция по запуску
 
