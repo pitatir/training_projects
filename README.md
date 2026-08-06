@@ -20,6 +20,9 @@
 │   │   └── IPC_signals                                       - сигналы     
 │   └── Linux_core_tracing_processes                        - трассировка ядра Linux с помощью Ftrace
 │
+├── Graduation_thesis                                    Бакалаврская ВКР: ПО для калибровки хроматических аберраций
+│                                                        для узко- и широкоугольных камер в задаче аппаратного ISP. 
+│
 ├── Python_projects                                      Проекты на языке Python:
 │   ├── Beam_curvature_in_the_optical_channel               - нахождения пути светового луча и его длины в волноводе 
 │   └── Filtering_the_audio_signal                          - фильтрация звукового сигнала
